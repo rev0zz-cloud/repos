@@ -1,0 +1,13 @@
+﻿  Lab9.cpp
+C:\Users\user\Downloads\repos\Lab9\Lab9.h(12,20): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Lab9.cpp")
+      C:\Users\user\Downloads\repos\Lab9\Lab9.h(12,20):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\user\Downloads\repos\Lab9\Lab9.cpp(14,5):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void sort<int>(T [],size_t)"
+          with
+          [
+              T=int
+          ]
+  
+  Lab9.vcxproj -> C:\Users\user\Downloads\repos\Lab9\x64\Debug\Lab9.exe
